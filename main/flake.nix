@@ -11,6 +11,7 @@
   inputs.src-ogham-main.ref   = "refs/heads/main";
   inputs.src-ogham-main.owner = "stscoundrel";
   inputs.src-ogham-main.repo  = "ogham-nim";
+  inputs.src-ogham-main.dir   = "";
   inputs.src-ogham-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
